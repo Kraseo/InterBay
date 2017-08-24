@@ -10,7 +10,6 @@
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.6
 
-
 /obj/item/clothing/suit/armor/vest/old //just realized these had never been removed
 	name = "armor"
 	desc = "An armored vest that protects against some damage."
@@ -37,7 +36,6 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS
 	heat_protection = UPPER_TORSO|LOWER_TORSO|ARMS
-
 
 /obj/item/clothing/suit/armor/riot
 	name = "riot suit"
@@ -331,6 +329,12 @@
 	heat_protection = UPPER_TORSO|LOWER_TORSO
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.6
+
+/obj/item/clothing/suit/storage/vest/peacekeeper
+	name = "armor"
+	desc = "A suit of armor used by CMA Peacekeepers. It comes with webbing for extra tactical storage."
+	icon_state = "peacekeeper_armor"
+	armor = list(melee = 50, bullet = 15, laser = 10, energy = 10, bomb = 20, bio = 0, rad = 0)
 
 /obj/item/clothing/suit/storage/vest/nt
 	name = "corporate security heavy armored vest"

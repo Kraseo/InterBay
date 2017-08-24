@@ -261,6 +261,11 @@
 	icon_state = "sunhud"
 	hud = /obj/item/clothing/glasses/hud/security
 
+/obj/item/clothing/glasses/sunglasses/sechud/peacekeeper
+	name = "MkI Peacekeeper Goggles"
+	desc = "These goggles are the latest in CMA criminal processing technology."
+	icon_state = "peacekeeperhud"
+
 /obj/item/clothing/glasses/sunglasses/sechud/goggles //now just a more "military" set of HUDglasses for the Torch
 	name = "HUD goggles"
 	desc = "Flash-resistant goggles with an inbuilt heads-up display."

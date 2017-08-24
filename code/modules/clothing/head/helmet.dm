@@ -17,6 +17,12 @@
 	siemens_coefficient = 0.7
 	w_class = ITEM_SIZE_NORMAL
 
+/obj/item/clothing/head/helmet/peacekeeper
+	name = "peacekeeper helm"
+	desc = "A peacekeeper's helm, though it's more of a chinguard. It's padded with cotton."
+	icon_state = "peacekeeper_helm"
+	armor = list(melee = 50, bullet = 15, laser = 5, energy = 5, bomb = 10, bio = 0, rad = 0)
+
 /obj/item/clothing/head/helmet/solgov
 	name = "\improper Sol Central Government helmet"
 	desc = "A helmet painted in Peacekeeper blue. Stands out like a sore thumb."

@@ -32,6 +32,15 @@
 	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 
+/obj/item/clothing/under/rank/peacekeeper
+	name = "peacekeeper's jumpsuit"
+	desc = "It's made of a slightly sturdier material than standard jumpsuits. Comes with protection to your arms and shins."
+	icon_state = "peacekeeper"
+	item_state = "r_suit"
+	worn_state = "peacekeeper"
+	armor = list(melee = 15, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+
 /obj/item/clothing/under/rank/dispatch
 	name = "dispatcher's uniform"
 	desc = "A dress shirt and khakis with a security patch sewn on."
