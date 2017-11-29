@@ -15,7 +15,6 @@
 		SPECIES_SKRELL = 'icons/mob/species/skrell/helmet.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/helmet.dmi',
 		)
-	species_restricted = null
 
 /obj/item/clothing/gloves/rig
 	name = "gauntlets"
@@ -23,7 +22,6 @@
 	body_parts_covered = HANDS
 	heat_protection =    HANDS
 	cold_protection =    HANDS
-	species_restricted = null
 	gender = PLURAL
 
 /obj/item/clothing/shoes/magboots/rig
@@ -31,7 +29,6 @@
 	body_parts_covered = FEET
 	cold_protection = FEET
 	heat_protection = FEET
-	species_restricted = null
 	gender = PLURAL
 	icon_base = null
 
@@ -139,7 +136,6 @@
 	body_parts_covered = FEET
 	cold_protection = FEET
 	heat_protection = FEET
-	species_restricted = null
 	gender = PLURAL
 
 /obj/item/clothing/gloves/lightrig
@@ -148,5 +144,4 @@
 	body_parts_covered = HANDS
 	heat_protection =    HANDS
 	cold_protection =    HANDS
-	species_restricted = null
 	gender = PLURAL
