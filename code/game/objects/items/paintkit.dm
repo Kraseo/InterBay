@@ -49,7 +49,7 @@
 	return ..()
 
 /obj/item/clothing/suit/space/void/attackby(var/obj/item/O, var/mob/user)
-/*	if(istype(O,/obj/item/device/kit/suit))		/ditto
+/*	if(istype(O,/obj/item/device/kit/suit))		//ditto
 		var/obj/item/device/kit/suit/kit = O
 		name = "[kit.new_name] voidsuit"
 		desc = kit.new_desc
